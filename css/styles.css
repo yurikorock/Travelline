@@ -1,5 +1,6 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+
   color: #434455;
   background-color: #fff;
 }
@@ -29,13 +30,50 @@ img {
 }
 
 .container {
-  width: 1920px;
+  width: 1720px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 /* #region Header */
+.header {}
 
+.header-nav {}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: rgb(24, 37, 37);
+}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #252641;
+}
+
+.header-address {}
+
+.phone-list {}
+
+.phone-item {}
+
+.phone-link {
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #fff;
+
+  background-color: #252641;
+}
 
 /* #endregion */
 
