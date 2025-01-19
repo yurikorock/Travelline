@@ -53,14 +53,37 @@ img {
   align-items: center;
 }
 
+.header-nav-logo {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: inline-flex;
+  margin-left: 20px;
+  margin-right: 360px;
+}
+
 .nav-logo {
   font-weight: 700;
   font-size: 32px;
   letter-spacing: 0.04em;
   color: #fff;
 
-  margin-right: 363px;
   background-color: rgb(24, 37, 37);
+}
+
+.nav-romb-logo {
+  fill: #2c2d32;
+  background-color: #b25a59;
+
+
+  position: absolute;
+
+
+
+  top: -60%;
+  left: -10%;
+  z-index: -1;
+
 
 }
 
@@ -82,7 +105,7 @@ img {
   font-size: 22px;
   letter-spacing: 0.02em;
   color: #252641;
-  padding: 20px, 0px;
+
 }
 
 .header-address {

@@ -26,7 +26,12 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="nav-logo" href="./index.html">Travelline</a>
+          <div class="header-nav-logo">
+            <a class="nav-logo" href="./index.html">Travelline</a>
+            <svg class="nav-romb-logo" width="208" height="83">
+              <use href="./images/icons.svg#icon-multi-romb-logo"></use>
+            </svg>
+          </div>
           <ul class="nav-list">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
@@ -51,11 +56,24 @@
     <main>
       <!--Hero section-->
       <section class="hero">
-        <h1>Life is a journey, not a destination</h1>
-        <p>Let's start your journey with us, your dream will come true...</p>
-        <button type="button">Explore Destinations</button>
-        <button type="button">Play</button>
-        <p>Watch how it works</p>
+        <div class="container hero-container">
+          <div class="block-left">
+            <h1>Life is a journey, not a destination</h1>
+            <p>
+              Let's start your journey with us, your dream will come true...
+            </p>
+            <button type="button">Explore Destinations</button>
+            <button type="button">Play</button>
+            <p>Watch how it works</p>
+          </div>
+          <img
+            class="block-right"
+            src="./images/travel-picture.png"
+            alt="travel-picture"
+            width="910"
+            height="745"
+          />
+        </div>
       </section>
       <!--Promotional section-->
       <section class="promotional">
